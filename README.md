@@ -61,3 +61,26 @@ Using CDN
 
 
 
+# Event
+
+Once the source is dropped inside the target, a custom event is emitted. 
+
+```
+window.addEventListener('onDropped', e=>{
+    console.log(e.detail)
+})
+
+```
+
+The e.detail is nothing but a json
+
+```
+//sample response
+{
+left: "491px", //left side margin of the source from the document left start
+leftMargin: 11.752988047808765, //% left margin of source from the target's left most border
+top: "289px", //top margin of the source from the document top start
+topMargin: 55.97609561752988, //% top margin of source from the target's top most border
+}
+```
+
