@@ -1,0 +1,22 @@
+{
+  "name": "adi-draganddrop",
+  "version": "1.0.0",
+  "description": "drag and drop made super simple with just one function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityar15/draganddrop.git"
+  },
+  "keywords": [
+    "draganddrop"
+  ],
+  "author": "Aditya Kadam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityar15/draganddrop/issues"
+  },
+  "homepage": "https://github.com/adityar15/draganddrop#readme"
+}
