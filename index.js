@@ -1,4 +1,4 @@
-export const makeDraggable = (options) => {
+const makeDraggable = (options) => {
   let left, top, actualLeft, actualTop;
   if (
     !options.hasOwnProperty("sourceID") ||
@@ -59,3 +59,6 @@ export const makeDraggable = (options) => {
     }
   }
 };
+
+
+module.exports.makeDraggable = makeDraggable
